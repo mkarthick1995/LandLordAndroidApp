@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.landlord.app-debug-43:/drawable_ic_phone.xml.flat",
+        "source": "com.landlord.app-main-45:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.landlord.app-debug-43:/drawable_ic_lock.xml.flat",
+        "source": "com.landlord.app-main-45:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.landlord.app-debug-43:/layout_activity_login.xml.flat",
+        "source": "com.landlord.app-main-45:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.landlord.app-debug-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.landlord.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.landlord.app-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.landlord.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

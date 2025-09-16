@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color primary
+color primary_dark
+color secondary
+color secondary_dark
+color white
+drawable ic_lock
+drawable ic_phone
+id loginButton
+id passwordInput
+id passwordInputLayout
+id phoneInput
+id phoneInputLayout
+id signupPrompt
+layout activity_login
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string login
+string login_failed
+string login_successful
+string password
+string phone_number
+string project_id
+string sign_up_prompt
+style Theme.Landlord

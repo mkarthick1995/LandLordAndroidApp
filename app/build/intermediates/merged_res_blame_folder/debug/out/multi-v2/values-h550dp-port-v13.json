@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.landlord.app-mergeDebugResources-41:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mkart\\.gradle\\caches\\transforms-3\\509b38506ecca3e232f13503326d6d62\\transformed\\material-1.10.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}

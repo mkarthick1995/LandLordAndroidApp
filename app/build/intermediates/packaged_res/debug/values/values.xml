@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="secondary">#FFC107</color>
+    <color name="secondary_dark">#FFA000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Landlord</string>
+    <string name="gcm_defaultSenderId" translatable="false">822556779707</string>
+    <string name="google_api_key" translatable="false">AIzaSyCHxHZP-Zb9rVtJ469AaJhd2j3nw50pUPg</string>
+    <string name="google_app_id" translatable="false">1:822556779707:android:dd367d1818ae181713f59e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCHxHZP-Zb9rVtJ469AaJhd2j3nw50pUPg</string>
+    <string name="google_storage_bucket" translatable="false">landlord-abd4e.firebasestorage.app</string>
+    <string name="login">Login</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_successful">Login successful</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="project_id" translatable="false">landlord-abd4e</string>
+    <string name="sign_up_prompt">Don\'t have an account? Sign Up</string>
+    <style name="Theme.Landlord" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

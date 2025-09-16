@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.landlord.app.auth.LoginActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.login_failed"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="8"
+            column="13"
+            startOffset="331"
+            endLine="8"
+            endColumn="32"
+            endOffset="350"/>
+        <location id="R.string.phone_number"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="153"
+            endLine="5"
+            endColumn="32"
+            endOffset="172"/>
+        <location id="R.string.password"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="6"
+            column="13"
+            startOffset="208"
+            endLine="6"
+            endColumn="28"
+            endOffset="223"/>
+        <location id="R.string.login"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="112"
+            endLine="4"
+            endColumn="25"
+            endOffset="124"/>
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[material_dynamic_primary70(R),black(U),secondary(U),white(U),secondary_dark(U),primary_dark(U),primary(U)],drawable[ic_phone(U),ic_lock(U)],id[passwordInputLayout(U),phoneInput(U),signupPrompt(U),phoneInputLayout(U),loginButton(U),passwordInput(U)],layout[activity_login(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[login(D),login_successful(D),app_name(U),password(D),login_failed(D),sign_up_prompt(D),phone_number(D)],style[Theme_Landlord(U),Theme_MaterialComponents_DayNight_DarkActionBar(R)];10^8^d^9^a^1^e,11^7^4,12^7^4,1a^1b^7^6^4^3^5^2^0;;;"/>
+        <location id="R.string.login_successful"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="9"
+            column="13"
+            startOffset="386"
+            endLine="9"
+            endColumn="36"
+            endOffset="409"/>
+        <location id="R.string.sign_up_prompt"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="7"
+            column="13"
+            startOffset="255"
+            endLine="7"
+            endColumn="34"
+            endOffset="276"/>
+    </map>
+
+</incidents>
