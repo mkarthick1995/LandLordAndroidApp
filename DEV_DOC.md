@@ -258,10 +258,10 @@ Continuous Integration using GitHub Actions + Gradle Build.
 
 9.1 Prerequisites
 - Android Studio Ladybug (2023.2.1) or later
-- JDK 17 to 19 (Note: Project is configured for Java 17, though system Java can be up to 21)
+- JDK 17 (required for Gradle configuration)
 - Android SDK with minimum API level 24
 - Firebase project setup and configuration
-- Gradle 8.5 or later
+- Gradle 8.13 or later (for compatibility with modern Android development)
 
 9.2 First Time Setup
 1. Clone the repository:
@@ -276,14 +276,35 @@ Continuous Integration using GitHub Actions + Gradle Build.
 7. Sync project with Gradle files
 
 9.3 Project Configuration
-- Gradle version: 8.5
+- Gradle version: 8.13
 - Android Gradle Plugin: 8.2.0
 - Kotlin version: 1.9.20
 - Minimum SDK: 24
 - Target SDK: 34
 - Firebase BoM: 32.3.1
+- JDK: 17 (required for stable Android development)
 
-9.4 Building and Running
+9.4 Important Gradle Configurations
+The following configurations in gradle.properties are crucial for proper build:
+
+```properties
+# JDK Settings
+org.gradle.java.home=C:\\Program Files\\Java\\jdk-17
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8 --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED
+
+# Android Studio settings
+android.useAndroidX=true
+android.enableJetifier=true
+```
+
+These settings ensure:
+- Correct JDK version is used
+- Proper memory allocation for builds
+- Required Java module exports and opens
+- AndroidX compatibility
+- Jetifier for legacy support
+
+9.5 Building and Running
 1. Connect an Android device (or use emulator)
    - Enable USB debugging on physical device
    - For emulator, create a device with API level 24+
@@ -293,7 +314,7 @@ Continuous Integration using GitHub Actions + Gradle Build.
 3. First build may take several minutes
 4. App will install and launch automatically
 
-9.5 Testing Login
+9.6 Testing Login
 1. Launch app on device/emulator
 2. Enter a 10-digit mobile number
 3. Enter password (minimum 6 characters)
